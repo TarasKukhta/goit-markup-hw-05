@@ -9,8 +9,7 @@
     --hero-background-color:#2E2F42;
     --main-but-pf-border:#e7e9fc;
     --menu-contact-link-color:#404BBF;
-    --transition-duration-and-func: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1); }
 
 h1,
 h2,
@@ -56,8 +55,7 @@ letter-spacing: 0.02em;
  padding: 24px 0;
 margin-left: auto;
 color: var(--secondary-color-text);
-transition: color var(--transition-duration-and-func), background-color var(--transition-duration-and-func);
-}
+transition: color var(--transition-duration-and-func);}
 
 .contact-link:hover,
 .contact-link:focus{color: var(--menu-contact-link-color);}
@@ -69,7 +67,7 @@ letter-spacing: 0.02em;
 padding: 24px 0;
 display: block;
 color: #2e2f42;
-transition: color var(--transition-duration-and-func), background-color var(--transition-duration-and-func);
+transition: color var(--transition-duration-and-func);
 }
 
 .menu-link:hover,
@@ -438,7 +436,7 @@ display: inline-block;}
     background-color: rgba(46, 47, 66, 0.4);;
 }
 
-.modal{
+.modal-window{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -447,7 +445,8 @@ display: inline-block;}
     height: 584px;
     background-color: rgb(252, 252, 252);
     border-radius: 4px;
-    transition: animate125 3000ms , infinite 1000ms;
+   
+    transition: transform var(--menu-contact-link-color);
 }
 
     .modal-close-btn{
