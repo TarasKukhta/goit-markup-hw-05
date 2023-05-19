@@ -101,6 +101,11 @@ gap: 40px;}
 
 /* ================= HERO ================= */
 
+.qaz{
+    position: relative;
+
+}
+
 /*наш напрямок*/
 
 .page-our-way {display: flex;
@@ -429,6 +434,37 @@ color: var(--button-color-text);
 background-color: var(--button-color-bg);}
 
 /* Портфоліо*/
+.pf-list-img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.img-pf-item:hover .overlay,
+.img-pf-item:focus .overlay{
+    transform: translateY(0%);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    padding-top: 42px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: rgb(244, 244, 253);
+    background: rgb(77, 90, 229);
+    overflow: auto;
+    transform: translate(0px,100%);
+    transition:transform 250ms linear;
+}
 
 .pf-main-but{padding: 72px;}
 
