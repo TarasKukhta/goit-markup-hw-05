@@ -434,7 +434,7 @@ color: var(--button-color-text);
 background-color: var(--button-color-bg);}
 
 /* Портфоліо*/
-.pf-list-img-wrapper{
+.employees-list-img-wrapper{
     position: relative;
     overflow: hidden;
 }
@@ -459,7 +459,7 @@ background-color: var(--button-color-bg);}
     padding-top: 42px;
     padding-left: 32px;
     padding-right: 32px;
-    color: rgb(244, 244, 253);
+    color: hwb(240 96% 1%);
     background: rgb(77, 90, 229);
     overflow: auto;
     transform: translate(0px,100%);
